@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  color: inherit;
+  font: inherit;
+  transition: 0.1s;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.5em;
+}
+
+h1,
+h2,
+h3,
+strong {
+  font-weight: bold;
+}
+
+input,
+button {
+  background: transparent;
+}
+
+button {
+  cursor: pointer;
+}
+
+.flx {
+  display: flex;
+}
+
+.flx-col {
+  flex-direction: column;
+}
+
+.flx-jc-sb {
+  justify-content: space-between;
+}
+.flx-jc-c {
+  justify-content: center;
+}
+
+.flx-ai-c {
+  align-items: center;
+}
+.flx-ai-s {
+  align-items: stretch;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1em;
+}

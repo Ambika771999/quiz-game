@@ -1,0 +1,88 @@
+{
+  "easy": [
+    {
+      "ques": "Do you .......... Chocolate Milk?",
+      "choices": ["like", "liked", "likes", "be like"],
+      "ans": 0
+    },
+    {
+      "ques": "He .......... not want go to the movies?",
+      "choices": ["do", "has", "does", "is"],
+      "ans": 2
+    },
+    {
+      "ques": "He .......... now.",
+      "choices": [
+        "play Tennis",
+        "want breakfast",
+        "walked Temple",
+        "walks Home"
+      ],
+      "ans": 3
+    },
+    {
+      "ques": "It .......... a beautiful day today.",
+      "choices": ["is", "are", "were", "am"],
+      "ans": 0
+    },
+    {
+      "ques": "Robert .......... not go to my school.",
+      "choices": ["is", "does", "do", "are"],
+      "ans": 1
+    }
+  ],
+  "medium": [
+    {
+      "ques": "We .......... Europian.",
+      "choices": ["do be", "do are", "are", "is"],
+      "ans": 2
+    },
+    {
+      "ques": "You .......... so happy today!",
+      "choices": ["looks", "seem", "be", "being"],
+      "ans": 1
+    },
+    {
+      "ques": "My parents .......... in a two-bedroom apartment.",
+      "choices": ["live", "lives", "are live", "is live"],
+      "ans": 0
+    },
+    {
+      "ques": "The sas music is .......... me down.",
+      "choices": ["brings", "bring", "bringing", "brang"],
+      "ans": 2
+    },
+    {
+      "ques": "I .......... done.",
+      "choices": ["do", "does", "done", "have"],
+      "ans": 3
+    }
+  ],
+  "hard": [
+    {
+      "ques": "I .......... waiting here for three hours by six O'Clock.",
+      "choices": ["will have been", "have been", "had", "has been"],
+      "ans": 0
+    },
+    {
+      "ques": "I .......... studying for 3 hours.",
+      "choices": ["is", "has been", "have been", "had"],
+      "ans": 2
+    },
+    {
+      "ques": "She .......... a song.",
+      "choices": ["sung", "sings", "sing", "singing"],
+      "ans": 1
+    },
+    {
+      "ques": "I .......... basketball next week.",
+      "choices": ["will", "is", "am", "was"],
+      "ans": 0
+    },
+    {
+      "ques": "I'm .......... basketball this afternoon.",
+      "choices": ["being go to", "go to", "went to play", "going to play"],
+      "ans": 0
+    }
+  ]
+}

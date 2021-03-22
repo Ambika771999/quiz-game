@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>W3Villa - Quiz Game</title>
+
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/main.css') }}"
+    />
+
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/game.css') }}"
+    />
+
+    <script src="{{ url_for('static', filename='js/game.js') }}"></script>
+  </head>
+
+  <body>
+    <div id="g-level-frame" class="g-frame">
+      <div class="g-frame-content">
+        <div class="container">
+          <h1>Welcome to Quiz Game!</h1>
+
+          <div class="levels-block">
+            <h2>Select Level</h2>
+
+            <div class="levels-list-cont">
+              <button
+                class="level-sel-btn"
+                data-level="easy"
+                onclick="startGame(this.getAttribute('data-level'))"
+              >
+                Easy
+              </button>
+
+              <button
+                class="level-sel-btn"
+                data-level="medium"
+                onclick="startGame(this.getAttribute('data-level'))"
+              >
+                Medium
+              </button>
+
+              <button
+                class="level-sel-btn"
+                data-level="hard"
+                onclick="startGame(this.getAttribute('data-level'))"
+              >
+                Hard
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="g-ques-frame" class="g-frame">
+      <div class="g-frame-content">
+        <div class="container">
+          <p class="timer"><span class="t-count">0</span> seconds</p>
+
+          <p class="ques">
+            Ques <span class="q-count"></span>: <span class="q-body"></span>
+          </p>
+
+          <div class="choices-list-cont">
+            <button class="choice-sel-btn" data-choice-no="0"></button>
+            <button class="choice-sel-btn" data-choice-no="1"></button>
+            <button class="choice-sel-btn" data-choice-no="2"></button>
+            <button class="choice-sel-btn" data-choice-no="3"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
